@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gambar" />
+
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Deadpool"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:background="@drawable/more"
+            android:layout_width="37dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            android:src="@drawable/deadpool" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <RelativeLayout
+            android:layout_width="7dp"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+        <Button
+            android:background="@drawable/suka"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+        <Button
+            android:background="@drawable/komen"
+            android:layout_width="23dp"
+            android:layout_height="23dp" />
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+        <Button
+            android:background="@drawable/share2"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <RelativeLayout
+            android:layout_width="235dp"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+        <Button
+            android:background="@drawable/simpan"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+</LinearLayout>
